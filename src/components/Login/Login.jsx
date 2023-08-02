@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './Login.css'
 
 const initial_state = {
@@ -32,7 +31,8 @@ const Login = ({ loginUser, loginError }) => {
               <br />
               <input type="submit" value="inicia sesion" onClick={handleSubmitForm} />
 
-              <input type="submit" value="cancelar" onClick={handleCancel} />
+              <input className='bg-cyan-500 hover:bg-cyan-600' type="submit" value="cancelar" onClick={handleCancel} />
+            
           </form>
           {loginError ? <p style={{ color: "red" }}>{loginError}</p> : null}
       </div >

@@ -8,10 +8,12 @@ const NavBar = () => {
     <nav className='nav'>
     <div >
         <ul>
-            <li ><Link className='li' to="/">Inicio</Link></li>
+            <li ><Link className='li' to="/inicio">Inicio</Link></li>
             <li><Link className='li' to="/servicios">Servicios</Link></li>
             <li><Link className='li' to="/contacto">Contacto</Link></li>
             <li><Link className='li' to="/login">Login</Link></li>
+            <li><Link className='li' to="/">HomeAdmin</Link></li>
+            <li><Link className='li' to="/registroCliente">RegisCliente</Link></li>
             <li className='li'>Logout</li>
             </ul>
             </div>
